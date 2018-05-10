@@ -4,7 +4,19 @@
 
 ## Installation
 
-Use `Gemfile`
+Install the gem:
+
+```
+gem install jekyll-environment-variables
+```
+
+And then require this gem in `_plugins/ext.rb`
+
+```ruby
+require "jekyll/environment-variables"
+```
+
+Alternatively, you can use Bundler with `Gemfile`:
 
 ```ruby
 group :jekyll_plugins do
