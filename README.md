@@ -1,6 +1,6 @@
 # Jekyll Environment Variables
 
-[![Buile Status](https://travis-ci.org/iBug/jekyll-environment-variables.svg?branch=master)](https://travis-ci.org/iBug/jekyll-environment-variables)
+[![Buile Status](https://travis-ci.org/iBug/jekyll-environment-variables.svg?branch=master)](https://travis-ci.org/iBug/jekyll-environment-variables) [![Gem Version](https://badge.fury.io/rb/jekyll-environment-variables.svg)](https://badge.fury.io/rb/jekyll-environment-variables)
 
 ## Installation
 
