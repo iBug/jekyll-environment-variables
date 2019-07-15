@@ -10,10 +10,11 @@ Install the gem:
 gem install jekyll-environment-variables
 ```
 
-And then require this gem in `_plugins/ext.rb`
+And then add it to your `_config.yml`:
 
-```ruby
-require "jekyll/environment-variables"
+```yaml
+plugins:  # "gems" before Jekyll 3.5
+  - jekyll-environment-variables
 ```
 
 Alternatively, you can use Bundler with `Gemfile`:
@@ -31,5 +32,6 @@ Then run `bundle install` and let Bundler handle it for you.
 All environment variables will be copied to `site.env` for use in Liquid templates.
 
 ```html
-Working directory: {{ site.env.PWD }}
+Hostname: {{ site.env.HOSTNAME }}
+My home: {{ site.env.HOME }}
 ```
